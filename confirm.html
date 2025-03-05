@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Payment</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            width: 40%;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            color: #00aaff;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background: #333;
+            color: #fff;
+        }
+        button {
+            background: #00aaff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #0088cc;
+        }
+        .whatsapp {
+            margin-top: 20px;
+            display: inline-block;
+            color: #00ff99;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Confirm Your Payment</h2>
+        <form action="https://formspree.io/f/mkgobkra" method="POST" enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="file" name="proof" accept="image/*" required>
+            <button type="submit">Submit Proof</button>
+        </form>
+        <a class="whatsapp" href="https://wa.me/2347082798562" target="_blank">📲 Contact on WhatsApp</a>
+    </div>
+</body>
+</html>

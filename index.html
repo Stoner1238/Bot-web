@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Get smart Instagram & Telegram bots to automate your business! Auto-reply, AI chatbots & engagement automation.">
+    <meta name="keywords" content="Instagram bot, Telegram bot, automation, chatbot, AI bots">
+    <meta name="author" content="Ayatulah">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Bots for Instagram & Telegram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            position: relative;
+        }
+        .watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.1;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            color: #00aaff;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .pricing {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .plan {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            margin: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 170, 255, 0.5);
+            transition: transform 0.3s;
+        }
+        .plan:hover {
+            transform: scale(1.05);
+        }
+        .plan h2 {
+            color: #00aaff;
+        }
+        .order-btn {
+            display: inline-block;
+            background: #00aaff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+        .order-btn:hover {
+            background: #0088cc;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .dark-mode-toggle {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #00aaff;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .stats h3 {
+            font-size: 24px;
+            color: #00ff99;
+        }
+        .faq-item {
+            text-align: left;
+            margin: 10px auto;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="my image.png" class="watermark">
+    
+    <button onclick="window.location.href='contact.html';">Contact & Complaints</button>
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+
+    <div class="container">
+        <h1>🚀 Get Your Smart Instagram & Telegram Bots Today! 🚀</h1>
+        <p>Automate your business and increase engagement effortlessly.</p>
+        
+        <!-- Countdown Timer -->
+        <h2>🎉 Limited-Time Discount Ends In: <span id="timer">00:00:00</span></h2>
+
+        <div class="pricing">
+            <div class="plan">
+                <h2>Basic</h2>
+                <p>✅ Auto-Reply <br>✅ Limited Messages <br>❌ No AI</p>
+                <p><strong>₦10,000</strong></p>
+                <a href="https://opay.ng/s/1kZuO" class="order-btn">Order Now</a>
+            </div>
+            <div class="plan">
+                <h2>Standard</h2>
+                <p>✅ Auto-Reply & DMs <br>✅ Engagement Automation <br>✅ Basic AI</p>
+                <p><strong>₦30,000</strong></p>
+                <a href="https://opay.ng/s/1kZdf" class="order-btn">Order Now</a>
+            </div>
+            <div class="plan">
+                <h2>Premium</h2>
+                <p>✅ AI Chatbot <br>✅ Advanced Automation <br>✅ Custom Features</p>
+                <p><strong>₦70,000+</strong></p>
+                <a href="https://opay.ng/s/1kZeT" class="order-btn">Order Now</a>
+            </div>
+        </div>
+
+        <!-- Live Demo -->
+        <h2>🤖 Try Our Bot Demo!</h2>
+        <a href="#" class="order-btn">Test Now</a>
+
+        <!-- Customer Testimonials -->
+        <h2>📢 What Our Customers Say</h2>
+        <p>“This bot has saved me hours of work. Highly recommended!” - John Doe</p>
+        <p>“Super easy to use and extremely effective. Love it!” - Jane Smith</p>
+
+        <!-- Stats -->
+        <h2>📊 Our Impact</h2>
+        <h3>🚀 <span id="botsSold">500+</span> Bots Sold</h3>
+        <h3>💬 <span id="activeUsers">1000+</span> Active Users</h3>
+        <h3>⚡ <span id="responseTime">0.5 sec</span> Avg Response Time</h3>
+
+        <!-- FAQ Section -->
+        <h2>❓ Frequently Asked Questions</h2>
+        <div class="faq-item"><strong>Do I need coding skills?</strong> - yes/No, our bots are easy to use.</div>
+        <div class="faq-item"><strong>Is there a free trial?</strong> - Yes! Try our demo bot.</div>
+
+        <!-- Video Section -->
+        <h2>🎥 Watch How It Works</h2>
+        <video width="80%" controls>
+            <source src="your-video.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+
+        <!-- Affiliate Program -->
+        <h2>💰 Earn Money with Our Affiliate Program</h2>
+        <p>Refer friends and earn commissions for every sale! <a href="#">Sign up now</a>.</p>
+
+        <p>📩 Contact us on WhatsApp: <a href="https://wa.me/2347025879384" style="color: #00aaff;">Click Here</a></p>
+    </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("light-mode");
+        }
+
+        function startCountdown() {
+            const countdownDate = new Date().getTime() + (24 * 60 * 60 * 1000);
+            setInterval(function() {
+                const now = new Date().getTime();
+                const timeLeft = countdownDate - now;
+                const hours = Math.floor((timeLeft / (1000 * 60 * 60)) % 24);
+                const minutes = Math.floor((timeLeft / (1000 * 60)) % 60);
+                const seconds = Math.floor((timeLeft / 1000) % 60);
+                document.getElementById("timer").innerText = `${hours}:${minutes}:${seconds}`;
+            }, 1000);
+        }
+        startCountdown();
+    </script>
+
+</body>
+</html>
+
+
+7908025680:AAE9UbmSlQKSPzixHIBZa0Bs0rTvAC2R_EI
